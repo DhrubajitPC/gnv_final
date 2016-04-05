@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		AC127B5E1CB3722E006A4408 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC127B5D1CB3722E006A4408 /* main.cpp */; };
+		AC127B651CB37284006A4408 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC127B641CB37284006A4408 /* GLUT.framework */; };
+		AC127B671CB372B4006A4408 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC127B661CB372B4006A4408 /* OpenGL.framework */; };
+		ACD23E031CB3C89000022267 /* Matrix2f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACD23DF41CB3C89000022267 /* Matrix2f.cpp */; };
+		ACD23E041CB3C89000022267 /* Matrix3f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACD23DF61CB3C89000022267 /* Matrix3f.cpp */; };
+		ACD23E051CB3C89000022267 /* Matrix4f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACD23DF81CB3C89000022267 /* Matrix4f.cpp */; };
+		ACD23E061CB3C89000022267 /* Quat4f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACD23DFA1CB3C89000022267 /* Quat4f.cpp */; };
+		ACD23E071CB3C89000022267 /* Vector2f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACD23DFD1CB3C89000022267 /* Vector2f.cpp */; };
+		ACD23E081CB3C89000022267 /* Vector3f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACD23DFF1CB3C89000022267 /* Vector3f.cpp */; };
+		ACD23E091CB3C89000022267 /* Vector4f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACD23E011CB3C89000022267 /* Vector4f.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,24 @@
 /* Begin PBXFileReference section */
 		AC127B5A1CB3722E006A4408 /* gnv-final */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "gnv-final"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC127B5D1CB3722E006A4408 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AC127B641CB37284006A4408 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		AC127B661CB372B4006A4408 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		AC127B681CB3734A006A4408 /* hw5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hw5.h; sourceTree = "<group>"; };
+		ACD23DF41CB3C89000022267 /* Matrix2f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix2f.cpp; sourceTree = "<group>"; };
+		ACD23DF51CB3C89000022267 /* Matrix2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix2f.h; sourceTree = "<group>"; };
+		ACD23DF61CB3C89000022267 /* Matrix3f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix3f.cpp; sourceTree = "<group>"; };
+		ACD23DF71CB3C89000022267 /* Matrix3f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix3f.h; sourceTree = "<group>"; };
+		ACD23DF81CB3C89000022267 /* Matrix4f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix4f.cpp; sourceTree = "<group>"; };
+		ACD23DF91CB3C89000022267 /* Matrix4f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix4f.h; sourceTree = "<group>"; };
+		ACD23DFA1CB3C89000022267 /* Quat4f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quat4f.cpp; sourceTree = "<group>"; };
+		ACD23DFB1CB3C89000022267 /* Quat4f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quat4f.h; sourceTree = "<group>"; };
+		ACD23DFC1CB3C89000022267 /* vecmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vecmath.h; sourceTree = "<group>"; };
+		ACD23DFD1CB3C89000022267 /* Vector2f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2f.cpp; sourceTree = "<group>"; };
+		ACD23DFE1CB3C89000022267 /* Vector2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2f.h; sourceTree = "<group>"; };
+		ACD23DFF1CB3C89000022267 /* Vector3f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector3f.cpp; sourceTree = "<group>"; };
+		ACD23E001CB3C89000022267 /* Vector3f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector3f.h; sourceTree = "<group>"; };
+		ACD23E011CB3C89000022267 /* Vector4f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector4f.cpp; sourceTree = "<group>"; };
+		ACD23E021CB3C89000022267 /* Vector4f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector4f.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC127B671CB372B4006A4408 /* OpenGL.framework in Frameworks */,
+				AC127B651CB37284006A4408 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +70,11 @@
 		AC127B511CB3722E006A4408 = {
 			isa = PBXGroup;
 			children = (
+				AC127B661CB372B4006A4408 /* OpenGL.framework */,
+				AC127B641CB37284006A4408 /* GLUT.framework */,
 				AC127B5C1CB3722E006A4408 /* gnv-final */,
 				AC127B5B1CB3722E006A4408 /* Products */,
+				ACD23DF31CB3C89000022267 /* vecmath */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +90,32 @@
 			isa = PBXGroup;
 			children = (
 				AC127B5D1CB3722E006A4408 /* main.cpp */,
+				AC127B681CB3734A006A4408 /* hw5.h */,
 			);
 			path = "gnv-final";
+			sourceTree = "<group>";
+		};
+		ACD23DF31CB3C89000022267 /* vecmath */ = {
+			isa = PBXGroup;
+			children = (
+				ACD23DF41CB3C89000022267 /* Matrix2f.cpp */,
+				ACD23DF51CB3C89000022267 /* Matrix2f.h */,
+				ACD23DF61CB3C89000022267 /* Matrix3f.cpp */,
+				ACD23DF71CB3C89000022267 /* Matrix3f.h */,
+				ACD23DF81CB3C89000022267 /* Matrix4f.cpp */,
+				ACD23DF91CB3C89000022267 /* Matrix4f.h */,
+				ACD23DFA1CB3C89000022267 /* Quat4f.cpp */,
+				ACD23DFB1CB3C89000022267 /* Quat4f.h */,
+				ACD23DFC1CB3C89000022267 /* vecmath.h */,
+				ACD23DFD1CB3C89000022267 /* Vector2f.cpp */,
+				ACD23DFE1CB3C89000022267 /* Vector2f.h */,
+				ACD23DFF1CB3C89000022267 /* Vector3f.cpp */,
+				ACD23E001CB3C89000022267 /* Vector3f.h */,
+				ACD23E011CB3C89000022267 /* Vector4f.cpp */,
+				ACD23E021CB3C89000022267 /* Vector4f.h */,
+			);
+			name = vecmath;
+			path = "gnv-final/vecmath";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD23E051CB3C89000022267 /* Matrix4f.cpp in Sources */,
+				ACD23E041CB3C89000022267 /* Matrix3f.cpp in Sources */,
+				ACD23E091CB3C89000022267 /* Vector4f.cpp in Sources */,
+				ACD23E071CB3C89000022267 /* Vector2f.cpp in Sources */,
+				ACD23E061CB3C89000022267 /* Quat4f.cpp in Sources */,
+				ACD23E031CB3C89000022267 /* Matrix2f.cpp in Sources */,
+				ACD23E081CB3C89000022267 /* Vector3f.cpp in Sources */,
 				AC127B5E1CB3722E006A4408 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,6 +272,10 @@
 		AC127B621CB3722E006A4408 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gnv-final/vecmath/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +283,10 @@
 		AC127B631CB3722E006A4408 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gnv-final/vecmath/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -239,6 +310,7 @@
 				AC127B631CB3722E006A4408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
